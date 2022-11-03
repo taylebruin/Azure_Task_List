@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Lab4-tbruin3" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\tayle\\Documents\\BYU\ Winter\ 2022\\IT210B\\LAB4B\\LAB4AProject\\LAB4AProject\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="LAB4AProject.Data.ApplicationDbContext" description="" value="Data Source=tcp:lab4aprojectdbserver.database.windows.net,1433;Initial Catalog=LAB4AProject_db;User Id=tbruin3@lab4aprojectdbserver;Password=x1xStraykiller[]" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\tayle\\Documents\\BYU\ Winter\ 2022\\IT210B\\LAB4B\\LAB4AProject\\LAB4AProject\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\LAB4AProject\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

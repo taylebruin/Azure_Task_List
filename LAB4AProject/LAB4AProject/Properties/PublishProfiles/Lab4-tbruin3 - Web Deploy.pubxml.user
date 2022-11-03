@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAf9k9oNDRi0Wx+rI859cOyAAAAAACAAAAAAAQZgAAAAEAACAAAADFihAVi/eA6JtB881iOykIO7Ay6sPgR88yBGA4tEKc0wAAAAAOgAAAAAIAACAAAACacm4TBQrhhsg5io692REemnvzTTclW1dZZ8D05yFjiIAAAAAzgNLYQUzwgHzwDpYXoRuLeevfKPb/merLuTe0GXtb70UXooYIRDUc+4xZTOZTqri54BvD0KaYM9nHC+j8F9XRVtiiMjeeYZgl6P34r+QJp8+3GD82TLbSpOq+Q3sUmDF1LasYb6hrF9kOTtxZTcY/ieW++L+sQ6Z7P4AD7EKojUAAAADXGQrTWYLZ54PAkzsg6agQutPKyCKNqkEXjJhcP+qDemX3SGiZ4M/QQTwPXQcEFOkkUIruX2KwYVBzBvq5wmR9</EncryptedPassword>
+    <History>True|2022-03-14T17:38:37.7486003Z;True|2022-03-14T11:18:53.0147162-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:lab4aprojectdbserver.database.windows.net,1433%3bInitial Catalog=LAB4AProject_db%3bUser Id=tbruin3%40lab4aprojectdbserver%3bPassword=x1xStraykiller[]</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="LAB4AProject.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:lab4aprojectdbserver.database.windows.net,1433%3bInitial Catalog=LAB4AProject_db%3bUser Id=tbruin3%40lab4aprojectdbserver%3bPassword=x1xStraykiller[]</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

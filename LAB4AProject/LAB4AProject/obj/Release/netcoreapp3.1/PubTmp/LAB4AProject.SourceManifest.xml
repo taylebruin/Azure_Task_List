@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\tayle\Documents\BYU Winter 2022\IT210B\LAB4B\LAB4AProject\LAB4AProject\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\tayle\Documents\BYU Winter 2022\IT210B\LAB4B\LAB4AProject\LAB4AProject\obj\Release\netcoreapp3.1\PubTmp\EFSQLScripts\LAB4AProject.Data.ApplicationDbContext.sql" />
+</sitemanifest>
